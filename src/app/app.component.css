@@ -1,0 +1,80 @@
+
+.body{
+
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 auto;
+    gap: 10px;
+    
+}
+.container{
+    width: 25rem;
+    height: 15rem;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+   padding: 20px;
+    
+   
+}
+.container__h{
+   /* color: black; */
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 0.5rem 0.5rem 1rem;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+.container:hover{
+    border: 1px solid #0055b7;
+    box-shadow: 3px 3px 6px rgb(226, 204, 204);
+}
+.arrival{
+    color: red;
+}
+.inhouse{
+color: blue;
+}
+.departure{
+    color: green;
+}
+.notification{
+    color:grey;
+}
+.msg{
+color: brown;
+}
+.bookStatus{
+color: rgb(15, 85, 85);
+}
+.reservation{
+    color: black;
+}
+
+
+.msgbox{
+    width: 8rem;
+    height: 3rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px rgb(226, 204, 204);
+    position: absolute;
+    padding: 2px;
+    font-size: 12px;
+    color: black;
+   display: none;
+    
+}
+
+.img{
+    width: 15px;
+    padding-top: 2px;
+}
+
+.icon:hover +.msgbox {
+        display:block;
+}
